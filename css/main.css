@@ -1,0 +1,1027 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbarout{
+    width: 100%;
+    box-shadow: 5px 5px 5px grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6649956;
+    background-color: white;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .logo img{
+    margin: 10px 0px;
+    width: 50px;
+}
+.navbar .nav ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+.navbar .nav ul li{
+    margin: 25px 20px;
+}
+.navbar .nav ul li a{
+    text-decoration: none;
+    color:#2e2d2d;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:lighter;
+}
+.navbar .nav ul li a:hover{
+    color: #f3a202;
+}
+.navbar .nav ul li .home{
+    color: #f3a202;
+}
+.navbar .nav ul li .getapp{
+    padding: 10px 20px;
+    border: 2px solid #f3a202 ;
+    border-radius: 25px;
+}
+.navbar .nav ul li .getapp i{
+    color: #f3a202;
+    font-size: 24px;
+
+}
+/* ==== nav in media query 750px (hidden)======= */
+.navbar .hidden-align{
+    display: none;
+}
+.navbar .nav-mediaquery-out{
+    width:80%;
+    height: 80vh;
+background-color: rgba(0,0,0,.5);
+position: absolute;
+top: 0;
+left: 0;
+display: none;
+margin: 75px 50px;
+border-radius: 30px;
+}
+.navbar .nav-mediaquery-out .nav-mediaquery{
+    width:75%;
+    height: 75vh;
+    margin: auto;
+}
+.navbar .nav-mediaquery-out .nav-mediaquery ul{
+    list-style-type: none;
+}
+.navbar .nav-mediaquery-out .nav-mediaquery ul li{
+margin: 20px 30px;
+}
+.navbar .nav-mediaquery-out .nav-mediaquery ul li a{
+   text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* ======end navbar====== */
+.firstsection{
+    padding-top: 60px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.firstsection .logo-postion{
+    padding: 20px;
+    width: 50%;
+    text-align: start;
+    position: relative;
+}
+.firstsection .logo-postion img{
+    margin: 20px 20px;
+    width:80%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    animation-name:animate-shokran ;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate-shokran {
+    25%{
+        top :20px
+    }
+    50%{
+        top :0px
+    }
+    75%{
+        top :20px
+    }
+    100%{
+        top :0px
+    }
+}
+.firstsection .info{
+    padding-top: 70px;
+    width: 50%;
+}
+.firstsection .info h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+}
+.firstsection .info p{
+    font-family: "Jost", sans-serif;
+    font-size: 25px;
+    color: grey;
+    padding: 20px 0px;
+}
+.firstsection .info button{
+    margin-top: 40px;
+    background-color: #f3a202;
+    padding: 8px 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+font-size: 22px;
+font-weight: 600;
+border: 3px solid #f3a202;
+border-radius: 40px;
+}
+/* end first section */
+.secsection{
+    width: 100%;
+    background-color: rgb(236, 225, 225);
+    margin-top: 50px;
+}
+.secsection .client-logo{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(236, 225, 225);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+   
+}
+.secsection .client-logo .cl-logo{
+    width:16%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.secsection .client-logo img{
+    width: 40%;
+    filter: grayscale();
+    transition: all 1s;
+}
+.secsection .client-logo img:hover{
+transform: scale(1.2,1.2);
+filter: brightness();
+
+}
+
+/* eng client-logo */
+.third-section{
+    padding-top: 40px;
+    width: 90%;
+    margin: auto;
+}
+.third-section .third-section-h1 h1{
+    color :#37517e;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+} 
+.third-section .third-section-h1 h1::before{
+    content: "";
+    width: 10%;
+    height: 1px;
+    background-color:rgb(206, 194, 194);
+    position: absolute;
+    top: 121%;
+    left: 45.5%;
+}
+.third-section .third-section-h1 h1::after{
+    content: "";
+    width: 3%;
+    height: 3px;
+    background-color:#f3a202;
+    position: absolute;
+    top: 118.5%;
+    left: 49%;
+}
+.third-section .row{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .row .thirh-sec-img{
+    width: 49%;
+}
+.third-section .row .thirh-sec-img img{
+    width: 100%;
+}
+.third-section .row .thirh-sec-info{
+    width: 49%;
+}
+.third-section .row .thirh-sec-info p{
+    color: #616161;
+    font-size: 22px;
+    margin-bottom: 50px;
+    padding-right: 10px;
+}
+.third-section .row .thirh-sec-info a{
+    margin-top: 80px;
+    color:#f3a202;
+    font-size: 17px;
+    font-weight: 600;
+padding: 10px 25px;
+border: 2px solid #f3a202 ;
+border-radius: 5px;
+font-family: Poppins, sans-serif;
+}
+.third-section .row .thirh-sec-info a:hover{
+    background-color:#f3a202 ;
+    color: white;
+}
+/* end third section */
+.WhoAreYou{
+    padding-top: 40px;
+    width: 90%;
+    margin: auto;
+}
+.WhoAreYou .WhoAreYou-h1{
+    margin-bottom: 40px;
+}
+.WhoAreYou .WhoAreYou-h1 h1{
+    color :#37517e;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+} 
+.WhoAreYou .WhoAreYou-h1 h1::before{
+    content: "";
+    width: 10%;
+    height: 1px;
+    background-color:rgb(206, 194, 194);
+    position: absolute;
+    top: 121%;
+    left: 45.5%;
+}
+.WhoAreYou .WhoAreYou-h1 h1::after{
+    content: "";
+    width: 3%;
+    height: 3px;
+    background-color:#f3a202;
+    position: absolute;
+    top: 118.5%;
+    left: 49%;
+}
+.WhoAreYou .row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color:#616161 ;
+    margin-bottom: 50px;
+
+}
+.WhoAreYou .row .info1{
+    width: 49%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.WhoAreYou .row .info1 p{
+    color:#616161 ;
+    font-size: 18px;
+
+}
+.WhoAreYou .row .info1 ul{
+    list-style-type: none;
+}
+.WhoAreYou .row .info1 ul li{
+    color:#616161 ;
+    margin: 10px 0px;
+    position: relative;
+}
+.WhoAreYou .row .info1 ul li p i{
+    color: #f3a202; 
+}
+.WhoAreYou .row .info1 ul li p .i2{
+    color: #f3a202; 
+position: absolute;
+left: 5px;
+top: 3px;
+ 
+}
+.WhoAreYou .row .info2{
+    width: 49%;
+} 
+.WhoAreYou .row .info2 p{
+    font-size: 18px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-bottom: 50px;
+}
+.WhoAreYou .row .info2 a{
+    margin-top: 80px;
+    color:#f3a202;
+    font-size: 17px;
+    font-weight: 600;
+padding: 7px 30px;
+border: 2px solid #f3a202 ;
+border-radius: 5px;
+font-family: Poppins, sans-serif;
+text-decoration: none;
+}
+/* end whoareyou section */
+.cover-CATEGORIES{
+    width: 100%;
+
+    background-color: rgb(236, 225, 225);
+
+}
+.CATEGORIES{
+    margin-top: 40px;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(236, 225, 225);
+
+}
+.CATEGORIES .CATEGORIES-h1 h1{
+    color :#37517e;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+} 
+.CATEGORIES .CATEGORIES-h1 h1::before{
+    content: "";
+    width: 10%;
+    height: 1px;
+    background-color:rgb(206, 194, 194);
+    position: absolute;
+    top: 121%;
+    left: 45.5%;
+}
+.CATEGORIES .CATEGORIES-h1 h1::after{
+    content: "";
+    width: 3%;
+    height: 3px;
+    background-color:#f3a202;
+    position: absolute;
+    top: 118.5%;
+    left: 49%;
+}
+.CATEGORIES .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.CATEGORIES .row .category-img{
+    width:32%;
+    position: relative;
+    margin-bottom: 20px;
+    transition: all 2s;
+
+
+}
+ .category-img-a:hover .category-img img {
+    transform: scale(1.3,1.3);
+}
+
+.CATEGORIES .row .category-img a{
+    width: 100%;
+    padding: 10px 0px;
+    color: white;
+font-size: 25px;
+text-decoration: none;
+}
+.CATEGORIES .row .category-img  .category-img-a{
+    width: 100%;
+    background-color: #f3a202;
+    text-align: center;
+    padding: 10px 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.CATEGORIES .row .category-img img{
+    width: 100%;
+    
+}
+
+/* end category sec */
+.brands{
+    margin-top: 40px;
+    width: 90%;
+    margin: auto;
+
+}
+.brands .brands-h1{
+    margin-bottom: 30px;
+}
+.brands .brands-h1 h1{
+    color :#37517e;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+} 
+.brands .brands-h1 h1::before{
+    content: "";
+    width: 9%;
+    height: 1px;
+    background-color:rgb(206, 194, 194);
+    position: absolute;
+    top: 121%;
+    left: 45.5%;
+}
+.brands .brands-h1 h1::after{
+    content: "";
+    width: 3%;
+    height: 3px;
+    background-color:#f3a202;
+    position: absolute;
+    top: 120%;
+    left: 48.5%;
+}
+
+.brands p{
+    padding: 20px ;
+color: #616161 ;
+font-size: 20px;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.brands .brand-all img{
+width: 250px;
+height: 250px;
+margin: 20px 75px;
+}
+/* end brands section */
+.contact{
+    margin-top: 40px;
+    width: 90%;
+    margin: auto;
+
+}
+.contact .contact-h1{
+    margin-bottom: 30px;
+}
+.contact .contact-h1 h1{
+    color :#37517e;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+} 
+.contact .contact-h1 h1::before{
+    content: "";
+    width: 9%;
+    height: 1px;
+    background-color:rgb(206, 194, 194);
+    position: absolute;
+    top: 121%;
+    left: 45.5%;
+}
+.contact .contact-h1 h1::after{
+    content: "";
+    width: 3%;
+    height: 3px;
+    background-color:#f3a202;
+    position: absolute;
+    top: 120%;
+    left: 48.5%;
+}
+
+.contact p{
+    padding: 5px ;
+color: #616161 ;
+font-size: 20px;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-bottom: 35px;
+}
+.contact .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact .row .contact-img{
+    width: 50%;
+}
+.contact .row .contact-img img{
+
+    width: 100%;
+}
+.con-form{
+    text-align: left;
+    width: 45%;
+    padding-top: 30px;
+    border-bottom: 2px solid #f3a202;
+    border-top: 2px solid #f3a202;
+}
+.a1111{
+    margin: 10px 20px;
+    color: #f3a202;
+}
+.contact .row .contact-form{
+    width: 50%;
+    display: flex;
+       flex-direction: column;
+}
+.contact .row .contact-form .row1{
+     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.contact .row .contact-form .row1 .email>label{
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #616161 ;
+
+}
+.contact .row .contact-form .row1 .email>input{
+    width: 220px;
+    height: 30px;
+    border: 1px solid #ada7a7 ;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.contact .row .contact-form .row1 .name>label{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #616161 ;
+   
+    }
+    .contact .row .contact-form .row1 .name>input{
+        width: 220px;
+        height: 30px;
+        border: 1px solid #ada7a7 ;
+        border-radius: 5px;
+        margin-top: 5px;
+
+    }
+    .contact .row .contact-form .message{
+        padding-left: 80px;
+        margin-top: 10px;
+    }
+    .contact .row .contact-form .message>label{
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #616161 ;
+        
+        }
+        .contact .row .contact-form .message>textarea{
+            margin-top: 5px;
+
+            border: 1px solid #ada7a7 ;
+            border-radius: 5px;
+        }
+        .contact .row .contact-form .message>button{
+            margin-top: 10px;
+            background-color: #f3a202;
+            padding: 5px 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        border: 3px solid #f3a202;
+        border-radius: 40px;
+        margin-left: 36%;
+        }
+/* end contact section */
+.last-sec{
+    width: 90%;
+    margin: auto;
+    margin-top: 60px ;
+
+}
+.last-sec h3{
+    color :#203e70;
+    font-size:20px;
+    margin-bottom: 10px ;
+
+}
+.last-sec p{
+    color: #616161 ;
+font-size: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.last-sec .contactIcon a{
+    text-decoration: none;
+}
+.last-sec .contactIcon a i{
+    color: white;
+    background-color: #f3a202;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 50px;
+    margin: 15px 7px;
+}
+/* end last section */
+.header{
+    width: 100%;
+    background-color: #37517e;
+    color: white;
+}
+.header .row{
+    width: 90%;
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.header .row .left{
+    width: 40%;
+}
+.header .row .left p{
+    font-size : 14px;
+}
+.header .row .right{
+    width: 40%;
+}
+.header .row .right p{
+    font-size: 14px;
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.header .row .right a{
+    color: #f3a202;
+    text-decoration: none;
+}
+/*  */
+.gotohome{
+    background-color: #f3a202 ;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@media(max-width : 750px){
+    .navbar .nav{
+        display: none;
+    }
+    .navbar .hidden-align{
+        padding-top: 22px;
+        display: block;
+
+    }
+    .navbar .hidden-align i{
+        color: #f3a202;
+    }
+    .nav-mediaquery-out{
+        transition: all 2s;
+    }
+    .navbar .hidden-align:hover .nav-mediaquery-out{
+        display: block;
+    }
+    .navbar .logo img{
+        margin: 12px 0px;
+        width: 40px;
+    }
+    /* end nav bar */
+
+
+    .firstsection{
+        width: 100%;
+    flex-direction: column-reverse;
+}
+.firstsection .logo-postion{
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.firstsection .logo-postion img{
+    width:80%;
+    position: relative;
+
+}
+@keyframes animate-shokran {
+    25%{
+        top :50px
+    }
+    50%{
+        top :0px
+    }
+    75%{
+        top :50
+    }
+    100%{
+        top :0px
+    }
+}
+.firstsection .info{
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+.firstsection .info h1{
+    
+    text-align: center;
+    font-size: 30px;
+}
+.firstsection .info p{
+    font-size: 18px;
+    color: grey;
+    padding: 20px 0px;
+}
+.firstsection .info button{
+    margin-top: 10px;
+    background-color: #f3a202;
+    padding: 5px 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+font-size: 18px;
+font-weight: 600;
+border: 3px solid #f3a202;
+border-radius: 40px;
+}
+/* end firstsection */
+
+.secsection .client-logo{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.secsection .client-logo .cl-logo{
+    width:50%;
+    margin-bottom: 20px;
+}
+.secsection .client-logo img{
+    width: 40%;
+    transition: all 1s;
+    filter: grayscale();
+}
+.secsection .client-logo img:hover{
+    transform: scale(1.2,1.2);
+    filter: brightness();
+    }
+/* end sec section */
+.third-section .third-section-h1 h1::before{
+    width: 30%;
+    top: 121%;
+    left: 35%;
+}
+.third-section .third-section-h1 h1::after{
+    width: 8%;
+    top: 118.5%;
+    left: 46%;
+}
+.third-section .row{
+flex-direction: column;
+}
+.third-section .row .thirh-sec-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.third-section .row .thirh-sec-info{
+    width: 100%;
+}
+.third-section .row .thirh-sec-info p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding-right: 0;
+
+
+}
+.third-section .row .thirh-sec-info a{
+    font-size: 15px;
+    padding: 10px 35px;
+}
+/* end third sec */
+.WhoAreYou{
+    width: 100%;
+}
+.WhoAreYou .WhoAreYou-h1 h1::before{
+    width: 30%;
+    left: 39%;
+}
+.WhoAreYou .WhoAreYou-h1 h1::after{
+    width: 10%;
+    left: 49%;
+}
+.WhoAreYou .row{
+    width: 100%;
+flex-direction: column;
+}
+.WhoAreYou .row .info1{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+
+
+.WhoAreYou .row .info2{
+    width: 100%;
+} 
+.WhoAreYou .row .info2 p{
+margin-bottom: 30px;
+}
+/* end WhoAreYou section */
+
+.CATEGORIES{
+    width: 100%;
+}
+.CATEGORIES .CATEGORIES-h1 h1::before{
+    width: 30%;
+    top: 121%;
+    left: 35%;
+
+}
+.CATEGORIES .CATEGORIES-h1 h1::after{
+    width: 8%;
+    top: 120%;
+    left: 46%;
+}
+.CATEGORIES .row{
+    justify-content: space-around;
+}
+
+.CATEGORIES .row .category-img{
+    width:100%;
+margin-bottom: 20px;
+}
+/* category */
+.brands .brands-h1{
+    margin-bottom: 30px;
+}
+
+.brands .brands-h1 h1::before{
+    width: 25%;
+    left: 37%;
+}
+.brands .brands-h1 h1::after{
+    width: 7%;
+    left: 46%;
+}
+.brands p{
+    padding: 5px ;
+}
+.brands .brand-all img{
+width: 250px;
+height: 250px;
+margin: 0;
+padding-left: 40px;
+padding-top: 20px;
+
+}
+/* end brand */
+.contact{
+    width: 100%;
+}
+.contact .contact-h1 h1::before{
+    width: 30%;
+    top: 121%;
+    left: 35%;
+
+}
+.contact .contact-h1 h1::after{
+    width: 8%;
+    top: 120%;
+    left: 46%;
+}
+
+.contact .row{
+margin: auto;
+    justify-content: space-between;
+flex-direction: column;
+}
+.contact .row .contact-img{
+    width: 100%;
+}
+.con-form{
+    width: 100%;
+    padding-top: 0px;
+    border-bottom: 2px solid #f3a202;
+    border-top: 2px solid #f3a202;
+}
+.a1111{
+    margin: 0;
+    color: #f3a202;
+}
+.contact{
+    margin-top: 40px;
+    width: 100%;
+    margin: auto;
+
+}
+.contact .row .contact-form{
+    width:100%;
+    display: flex;
+       flex-direction: column;
+     
+}
+.contact .row .contact-form .row1{
+     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    flex-direction: column;
+
+}
+.contact .row .contact-form .row1 .email{
+    padding-left: 15px;
+}
+.contact .row .contact-form .row1 .email>label{
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #616161 ;
+
+}
+.contact .row .contact-form .row1 .email>input{
+    width: 320px;
+    height: 30px;
+    border: 1px solid #ada7a7 ;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.contact .row .contact-form .row1 .name{
+    padding-left: 15px;
+
+}
+.contact .row .contact-form .row1 .name>label{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #616161 ;
+   
+    }
+    .contact .row .contact-form .row1 .name>input{
+        width: 320px;
+        height: 30px;
+        border: 1px solid #ada7a7 ;
+        border-radius: 5px;
+        margin-top: 5px;
+
+    }
+    .contact .row .contact-form .message{
+
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    .contact .row .contact-form .message>label{
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #616161 ;
+        
+        }
+        .contact .row .contact-form .message>textarea{
+
+            margin-top: 5px;
+            width: 100%;
+
+            border: 1px solid #ada7a7 ;
+            border-radius: 5px;
+        }
+
+
+/* end contact section */
+.header .row{
+    width: 100%;
+    padding: 20px 0px;
+flex-direction: column;
+text-align: center;
+}
+.header .row .left{
+    width:100%;
+}
+.header .row .right{
+    width: 100%;
+}
+.header .row .right p{
+padding: 0px 15px;
+}
+.header .row .right .email-p{
+    margin: 10px 0px;
+}
+
+
+
+}
